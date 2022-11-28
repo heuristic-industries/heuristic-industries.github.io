@@ -2,6 +2,7 @@
 layout: main
 title: "Over-voltage protection"
 image: "/assets/over-voltage/explosion.jpg"
+image_alt: "Circuit board with an exploded electrolytic capacitor"
 description: "How and why to protect guitar pedals from excessive voltage"
 date: 2022-11-27 17:32:23 -0700
 ---
