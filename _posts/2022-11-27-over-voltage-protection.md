@@ -74,6 +74,6 @@ Large input/output voltage differentials can significantly reduce the efficiency
 
 ### Switching DC-DC converter
 
-There's a pretty wide swath of devices under the "DC-DC converter" category, with numerous topologies and pros and cons. There tends to be a continuum where the more affordable parts are simpler internally and require more external parts as well as careful planning, while the more complex ones can handle a wider variety of situations with less supporting circuitry. Because oscillators are involved PCB layout becomes extremely important so as to not introduce noise into the audio path.
+There's a pretty wide swath of devices under the "DC-DC converter" category, with numerous topologies and pros and cons. There tends to be a continuum where the more affordable parts are simpler internally and require more external parts as well as careful planning, while the more complex ones can handle a wider variety of situations with less supporting circuitry. Because oscillators are involved, PCB layout becomes extremely important so as to not introduce noise into the audio path.
 
 If you're looking to support a wide variety of input voltages this is a great place to start. Most of the time I don't think this is worth the added complexity and cost.
