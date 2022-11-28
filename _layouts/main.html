@@ -5,6 +5,15 @@
     <title>Heuristic Industries / {{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ page.title }}" />
+    {% if page.image %}
+      <meta property="og:description" content="{{ page.description }}" />
+    {% endif %}
+    <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
+    {% if page.image %}
+      <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+    {% endif %}
   </head>
   <body>
     <div class="content">
