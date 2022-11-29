@@ -1,12 +1,15 @@
 ---
 layout: main
-title: "Blog"
+title: "Posts"
 ---
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.description }}</p>
+      </a>
     </li>
   {% endfor %}
 </ul>
