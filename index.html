@@ -61,6 +61,27 @@
         opacity: 1;
       }
 
+      .newsletter {
+        margin-bottom: 20px;
+      }
+
+      .newsletter label {
+        display: block;
+        font-size: 15pt;
+        margin-bottom: 5px;
+      }
+
+      .newsletter input {
+        font-size: 14pt;
+        padding: 5px 10px;
+      }
+
+      .newsletter input[type="submit"] {
+        font-size: 14pt;
+        padding: 5px 10px;
+        background-color: white;
+      }
+
       @media (min-width: 480px) {
         .container {
           width: 70%;
@@ -105,7 +126,12 @@
   <body>
     <div class="container">
       <img src="logo.svg" alt="Heuristic Industries">
-      <h2 class="subtitle">Musical electronics (soon)</h2>
+      <h2 class="subtitle">Musical electronics (very very soon)</h2>
+      <form action="https://industries.us21.list-manage.com/subscribe/post?u=ee52efa5d1592774ca47086a7&amp;id=9bde409cad&amp;f_id=008fade1f0" method="post" target="_self" class="newsletter">
+        <label for="email">Stay in the loop:</label>
+        <input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="email" required>
+        <input type="submit" value="Subscribe" name="subscribe" class="button">
+      </form>
       <a class="blog" href="/blog">Blog</a>
       <ul class="social">
       <li>
